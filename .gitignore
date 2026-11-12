@@ -1,0 +1,43 @@
+# ==========================================
+# Konfigurasi Database & Informasi Kredensial
+# ==========================================
+config/database.php
+admin/seeder_admin.php
+.env
+*.env
+*.env.*
+*.local
+
+# ==========================================
+# Log & File Sementara (Temporary)
+# ==========================================
+*.log
+logs/
+temp/
+tmp/
+
+# ==========================================
+# Backup & Database Dump
+# ==========================================
+*.bak
+*.backup
+*.dump
+*.sql.gz
+
+# ==========================================
+# File Sistem Operasi & Direktori Sampah
+# ==========================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ==========================================
+# IDE & Text Editor
+# ==========================================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+nbproject/
+
